@@ -32,6 +32,7 @@ public class Mainemethode {
       Iterator<Cell> ce= firstrow.cellIterator(); //move to each and every cell
       int k=0;
      int coloumn = 0;
+     int a;
        while(ce.hasNext()) //read each and ever cell value, hasnext is says next cell is present or not
        {
     	   Cell value =ce.next(); //storing value cheack next cell is present and moved
